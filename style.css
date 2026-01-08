@@ -178,6 +178,7 @@ header nav ul li a {
 
 .notes{
     width: 85%;
+    max-width: 1360px;
     margin: 0 auto;
     /* border: 1px solid red; */
     display: flex;
@@ -232,4 +233,40 @@ header nav ul li a {
     line-height: 20px;
     width: 274px;
     text-align: center;
+}
+.brain{
+    display: flex;
+    align-items: center;
+    padding: 120px 0;
+    margin: 0 auto;
+    width: 85%;
+    max-width: 1360px;
+    gap: 60px;
+}
+.brain .brain-container h6{
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #30B868;
+}
+.brain-container h1{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.brain-container .brain-pera{
+    line-height: 20px;
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.brain-container .brain-ruls{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.brain-ruls .brain-rul{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    /* border: 1px solid red; */
 }
