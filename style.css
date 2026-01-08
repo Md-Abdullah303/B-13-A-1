@@ -207,7 +207,8 @@ header nav ul li a {
     align-items: center;
     justify-content: end;
     flex-direction: column;
-    box-shadow: 0 0 8px #00000054 ;
+    box-shadow: 0 0 8px #0000001e ;
+    border-radius: 3px;
 }
 .notBox .notIconBox{
     background-color: #F95555;
