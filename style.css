@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
-body{
+
+body {
     background-color: #FFFFFF;
 }
 
 
 /* share styles  */
-.btn{
+.btn {
     background-color: #469165;
     color: #FFFFFF;
     font-size: 16px;
@@ -21,7 +22,8 @@ body{
     border-radius: 4px;
     border: none;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #346e4c;
     color: #ffffffde;
 }
@@ -30,27 +32,143 @@ body{
 
 
 /* header st here  */
-header nav{
+header nav {
     height: 92px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-header nav img{
+
+header nav img {
     width: 139px;
 }
-header nav ul{
+
+header nav ul {
     display: flex;
     align-items: center;
     gap: 32px;
 
 }
-header nav ul li{
+
+header nav ul li {
     list-style: none;
 }
-header nav ul li a{
+
+header nav ul li a {
     text-decoration: none;
     font-weight: 500px;
     font-size: 16px;
     color: #000000;
+}
+
+.hero {
+    width: 100%;
+    height: calc(100vh - 92px);
+    background-image: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 85%; */
+    /* height: 379px; */
+    /* border: 1px solid red; */
+}
+
+.hero .hero-container .earlyAcces {
+    width: 230px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    color: #469165;
+    border-radius: 1000px;
+    font-size: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.earlyAcces .earlyAcces-carkel-1 {
+    background-color: #46916559;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    margin-right: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.earlyAcces-carkel-1 .earlyAcces-carkel-2 {
+    background-color: #46916593;
+    width: 12px;
+    height: 12px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.earlyAcces-carkel-1 .earlyAcces-carkel-2 .earlyAcces-carkel-3 {
+    background-color: #469165;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+}
+
+.hero .hero-container h1 {
+    font-size: 72px;
+    color: #FFFFFF;
+    line-height: 84px;
+    margin-bottom: 16px;
+}
+
+.hero .hero-container h1 span {
+    color: #30B868;
+}
+
+.hero .hero-container p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    color: #FFFFFF;
+}
+
+.hero-container .hero-buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.hero-container .hero-buttons .headBtn-1 i {
+    margin-left: 10px;
+}
+
+.hero-buttons .headBtn-2 {
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hero-buttons .headBtn-2:hover {
+    border: 2px solid #ffffffc7;
+    color: #ffffffc7;
 }
