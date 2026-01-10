@@ -16,11 +16,12 @@ body {
 .btn {
     background-color: #469165;
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700px;
-    padding: 12.5px 16px;
+    padding: 1.2rem 1rem;
     border-radius: 4px;
     border: none;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -40,13 +41,13 @@ header nav {
 }
 
 header nav img {
-    width: 139px;
+    width: 8.7rem;
 }
 
 header nav ul {
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap: 2rem;
 
 }
 
@@ -57,7 +58,7 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     font-weight: 500px;
-    font-size: 16px;
+    font-size: 1rem;
     color: #000000;
 }
 
