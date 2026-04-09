@@ -36,7 +36,7 @@ body {
 header nav {
     height: 92px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -177,7 +177,7 @@ header nav ul li a {
 
 /* main st here  */
 
-.notes{
+.notes {
     width: 85%;
     max-width: 1360px;
     margin: 0 auto;
@@ -186,22 +186,26 @@ header nav ul li a {
     flex-direction: column;
     align-items: center;
 }
-.notes h1{
+
+.notes h1 {
     padding-top: 116px;
     font-size: 48px;
     color: #001931;
     margin-bottom: 16px;
 }
-.notes .noteHeadPera{
+
+.notes .noteHeadPera {
     margin-bottom: 44px;
     font-size: 16px;
     color: #627382;
 }
-.notes .notBoxs{
+
+.notes .notBoxs {
     display: flex;
     gap: 24px;
 }
-.notBoxs .notBox{
+
+.notBoxs .notBox {
     height: 205px;
     width: 322px;
     /* padding: 24px; */
@@ -209,10 +213,11 @@ header nav ul li a {
     align-items: center;
     justify-content: end;
     flex-direction: column;
-    box-shadow: 0 0 8px #0000001e ;
+    box-shadow: 0 0 8px #0000001e;
     border-radius: 3px;
 }
-.notBox .notIconBox{
+
+.notBox .notIconBox {
     background-color: #F95555;
     height: 60px;
     width: 60px;
@@ -222,20 +227,23 @@ header nav ul li a {
     border-radius: 50%;
     margin-bottom: 16px;
 }
-.notBox h2{
+
+.notBox h2 {
     font-size: 24px;
     color: #001931;
     margin-bottom: 16px;
     text-align: center;
 }
-.notBox p{
+
+.notBox p {
     font-size: 16px;
     color: #627382;
     line-height: 20px;
     width: 274px;
     text-align: center;
 }
-.brain{
+
+.brain {
     display: flex;
     align-items: center;
     padding: 120px 0;
@@ -244,28 +252,33 @@ header nav ul li a {
     max-width: 1360px;
     gap: 60px;
 }
-.brain .brain-container h6{
+
+.brain .brain-container h6 {
     margin-bottom: 16px;
     font-size: 16px;
     color: #30B868;
 }
-.brain-container h1{
+
+.brain-container h1 {
     font-size: 48px;
     color: #001931;
     margin-bottom: 16px;
 }
-.brain-container .brain-pera{
+
+.brain-container .brain-pera {
     line-height: 20px;
     font-size: 16px;
     color: #627382;
     margin-bottom: 40px;
 }
-.brain-container .brain-ruls{
+
+.brain-container .brain-ruls {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
-.brain-ruls .brain-rul{
+
+.brain-ruls .brain-rul {
     display: flex;
     align-items: center;
     gap: 6px;
@@ -273,7 +286,7 @@ header nav ul li a {
 }
 
 
-#clear{
+#clear {
     width: 85%;
     max-width: 1360px;
     height: 384px;
@@ -285,19 +298,22 @@ header nav ul li a {
     margin: 0 auto;
     margin-bottom: 120px;
 }
-#clear h1{
+
+#clear h1 {
     font-size: 40px;
     color: #001931;
-    margin-bottom:16px ;
+    margin-bottom: 16px;
 }
-#clear .clearTopPera{
+
+#clear .clearTopPera {
     text-align: center;
     columns: #627382;
     font-size: 16px;
     line-height: 24px;
-    margin-bottom:24px;
+    margin-bottom: 24px;
 }
-#clear .clearButtomPera{
+
+#clear .clearButtomPera {
     margin-top: 16px;
     columns: #627382;
     font-size: 16px;
@@ -305,11 +321,12 @@ header nav ul li a {
 }
 
 /* footer st here  */
-footer{
+footer {
     background-color: #001931;
     color: #FFFFFF;
 }
-.footerBox1{
+
+.footerBox1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -318,15 +335,18 @@ footer{
     margin: 0 auto;
     padding-top: 120px;
 }
-.footerBox1 .socail p{
+
+.footerBox1 .socail p {
     font-size: 20px;
     margin-bottom: 16px;
 }
-.socail a{
+
+.socail a {
     color: #FFFFFF;
     margin-right: 16px;
 }
-footer hr{
+
+footer hr {
     width: 85%;
     max-width: 1360px;
     opacity: 20%;
@@ -334,9 +354,34 @@ footer hr{
     margin-top: 80px;
     margin-bottom: 30px;
 }
-.footerBox2{
+
+.footerBox2 {
     text-align: center;
     padding-bottom: 30px;
     font-size: 16px;
     color: #fafafa;
+}
+
+@media screen and (max-width:575px) {
+    .btn {
+        font-size: .7rem;
+        padding: .6rem .5rem;
+        /* text-align: center; */
+    }
+
+    header nav img {
+        width: 4.7rem;
+    }
+
+    header nav ul {
+        gap: 1rem;
+    }
+
+    header nav ul li a {
+        font-size: .8rem;
+    }
+    .hero-container {
+        font-size: .2rem;
+        text-align: center;
+    }
 }
